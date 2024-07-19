@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-container {
+            background-color: #f5f5dc; /* Beige color */
+            width: 400px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .profile-header {
+            background-color: #008080; /* Teal color */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile-name {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .profile-title {
+            margin: 0;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        .profile-body {
+            padding: 20px;
+        }
+
+        .profile-body h2 {
+            margin-top: 0;
+        }
+
+        .profile-body ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .profile-body ul li {
+            background-color: #e0e0d1; /* Light beige color */
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        .profile-body p {
+            margin: 10px 0;
+        }
+
+        .linkedin-link {
+            color: #008080; /* Teal color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .linkedin-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+            <h1 class="profile-name">Bharathi Nachiyappan K</h1>
+            <p class="profile-title">Engineering Student</p>
+        </div>
+        <div class="profile-body">
+            <h2>About Me</h2>
+            <p>Hello! I am Bharathi Nachiyappan, an aspiring design thinker with interests in Cyber Security and writing.</p>
+            
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Cybersecurity</li>
+            </ul>
+            
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:bharabala89@gmail.com">bharabala89@gmail.com</a></p>
+            <p>Phone: 8248636801</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/k-bharathi-nachiyappan-4b4108258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin-link">My Linkedin</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
